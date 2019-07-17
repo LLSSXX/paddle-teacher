@@ -1,0 +1,76 @@
+<view class='root' >
+  <!--整体框架-->
+
+  <view class='top'>
+    <view class='top-middle'></view>
+  </view>
+  <view class='container1' animation="{{slide_up2}}">
+  
+    <!--上边全部的框-->
+    <view class='on'></view>
+    <view class='name'>
+      <!--姓名框-->
+      <text decode="true">姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<text class='color'>{{name}}</text></text>
+    </view>
+    <!--姓名框结束-->
+    <view class='line'></view>
+
+    <view class='school_number'>
+      <!--学号框-->
+      <text decode="true">学号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<text class='color'>{{school_number}}</text></text>
+    </view>
+    <!--学号框结束-->
+    <view class='line'></view>
+
+    <view class='college'>
+      <!--学院框-->
+      <text decode="true">学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<text class='color'>{{college}}</text></text>
+    </view>
+    <!--学院框结束-->
+    <view class='line'></view>
+
+    <view class='profession'>
+      <!--专业框-->
+      <text decode="true">专业&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<text class='color'>{{profession}}</text></text>
+    </view>
+    <!--专业框结束-->
+    <view class='line'></view>
+
+       <view class='reason'>
+      <!--用途框-->
+      <view>用途</view>
+      <view class='con'>
+        <textarea bindinput="application_reasonInput" class='textarea'>
+        </textarea>
+      </view>
+    </view>
+    <!--申请理由框结束-->
+  
+  <view class='con2-text'>注意事项：</view>
+  <view class='con2-text1'>1.此功能仅支持中文在学证明申请。</view>
+  <view class='con2-text2'>2.填写完成后请点击预览查看最终</view>
+  <view class='con2-text3'>打印效果，如有语句不通顺请及</view>
+  <view class='con2-text4'>时修改用途描述。</view>
+  <!--上边的框结束-->
+ </view>
+  
+  
+ 
+
+  <!--按钮-->
+  <view class='button'>
+
+    <view>
+      <button loading='{{loading}}' disabled='{{disabled}}' class='sub' bindtap="submit" >提交</button>
+    </view>
+
+    <view>
+      <button class='sub01' bindtap="preview" >预览</button>
+    </view>
+
+    <view class='info'>{{infoMess}}</view>
+
+  </view>
+
+</view>
+<!--整体框架结束-->

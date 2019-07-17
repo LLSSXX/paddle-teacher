@@ -1,0 +1,11 @@
+<view>
+  <button wx:for="{{information}}" bindtap='button' data-sequence_number='{{item.sequence_number}}' class='button'>
+    <view>{{item.application_reason}}</view>
+    <view>{{item.submit_time}}</view>
+  </button>
+  <view class='t1'></view>
+   <navigator class="my-item01" url='../upload_success/upload_success'>
+  <button class='button1' bindtap='button1' loading='{{loading}}' disabled='{{disabled}}'>上传</button>
+  </navigator>
+</view>
+

@@ -1,0 +1,54 @@
+.textarea1 {
+  border: none;
+  width: 540rpx;
+  margin-top: 20rpx;
+  margin-left: 35rpx;
+  height: 400rpx;
+}
+
+.con{
+   border: 1rpx solid #FF8C00;
+  border-radius: 20rpx;
+  width: 600rpx;
+  margin-top: 50rpx;
+  margin-left: 75rpx;
+  height: 500rpx;
+}
+
+.con2 {
+  border-radius: 20rpx;
+  border: 1rpx solid #FF8C00;
+  margin-top: 50rpx;
+  width: 600rpx;
+  height: 80rpx;
+  margin-left: 75rpx;
+}
+
+.input1 {
+  padding-left: 20rpx;
+  padding-top: 15rpx;
+}
+
+.button1 {
+  color: white;
+  background-color: #FF8C00;
+  border-radius: 50rpx;
+  height: 100rpx;
+  width: 600rpx;
+  font-size: 45rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+
+.button1::after {
+  border: none;
+}
+
+.text2 {
+  margin-left: 225rpx;
+  margin-top: 20rpx;
+  color: #FF8C00;
+}

@@ -1,0 +1,28 @@
+<view class='root'>
+  <!--总的大框-->
+
+  <view class="my-list">
+
+    <navigator class="my-item01" url='../school_certificate_check_record/school_certificate_check_record'>
+      <image class='list-image01' src='/images/apply.png'></image>
+      <text class='list-text01'>在学证明审核记录</text>
+      <text class='text01'>></text>
+    </navigator>
+
+    <navigator class='my-item02' url='../classroom_check_record/classroom_check_record'>
+      <image class='list-image' src='/images/classroom.png'></image>
+      <text class='list-text'>教室审核记录</text>
+      <text class='text02'>></text>
+    </navigator>
+
+    <navigator class="my-item03" url="../activity_check_record/activity_check_record">
+      <image class='list-image' src='/images/activity.png'></image>
+      <text class='list-text'>活动审核记录</text>
+      <text class='text03'>></text>
+    </navigator>
+  </view>
+
+
+
+</view>
+<!--总框结束-->

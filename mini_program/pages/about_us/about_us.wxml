@@ -1,0 +1,20 @@
+<view class="container">
+  <!--整体的组件-->
+  <view>
+    <!--图标-->
+    <image class='image' src='/images/login.png'></image>
+    <view class='introduction'>
+      <!--介绍-->
+      <text>爬豆老师</text>
+      <text class='word'>您身边的智能老师</text>
+    </view>
+    <!--介绍结束-->
+    <view class='con'>
+      <text>版本</text>
+      <text class="con-text3" decode="true">&nbsp;&nbsp;v1.0.0</text>
+    </view>
+    <!--详细信息结束-->
+  </view>
+  <!--图标结束-->
+</view>
+<!--整体的组件结束-->

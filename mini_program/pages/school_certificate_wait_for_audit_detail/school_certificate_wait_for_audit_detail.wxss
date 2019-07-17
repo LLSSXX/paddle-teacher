@@ -1,0 +1,116 @@
+.container1{
+  height: 600rpx;
+  width: 670rpx;
+  margin-top: 50rpx;
+  margin-left: 35rpx;
+  border-radius: 30rpx;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.name{
+  display: flex;  
+  flex-direction: row; 
+  margin-left: 55rpx;
+  margin-top: 60rpx;
+}
+
+.number{
+  display: flex;  
+  flex-direction: row; 
+  margin-left: 55rpx;
+  margin-top: 35rpx;
+}
+
+.college{
+  display: flex;  
+  flex-direction: row; 
+  margin-left: 55rpx;
+  margin-top: 40rpx;
+}
+
+.profession{
+  display: flex;  
+  flex-direction: row; 
+  margin-left: 55rpx;
+  margin-top: 40rpx;
+}
+
+.text1{
+  display: flex;  
+  flex-direction: row; 
+  margin-left: 55rpx; 
+  margin-top: 40rpx;
+}
+
+.text2{
+   margin-left: 75rpx; 
+   margin-top: 40rpx;  
+   color: gray;
+}
+
+.text{
+  color: #9ea2a8;
+  margin-left: 10rpx;
+}
+
+.buttonTwo-1{
+  color: white;
+  background-color: #FF8C00;
+  border-radius: 50rpx;
+  height: 100rpx;
+  width: 600rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.buttonTwo-1::after{
+  border:none;
+}
+
+.buttonTwo-2{
+  color: white;
+  background-color: #FF8C00;
+  border-radius: 50rpx;
+  height: 100rpx;
+  width: 600rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.buttonTwo-2::after{
+  border:none;
+}
+
+.button-fianl{
+  color: white;
+  background-color: #FF8C00;
+  border-radius: 50rpx;
+  height: 100rpx;
+  width: 600rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.button-fianl::after{
+  border:none;
+}
+
+
+.con-top{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50rpx;
+ justify-content: center; 
+}

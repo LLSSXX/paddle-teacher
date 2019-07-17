@@ -1,0 +1,14 @@
+<view>
+  <button wx:for="{{information}}" bindtap='button' data-sequence_number='{{item.sequence_number}}' class='button'>
+    <view>{{item.purpose}}</view>
+    <view>{{item.use_date}}  {{item.begin_time}}至{{item.end_time}}</view>
+  </button>
+  <view class='t1'></view>
+   <navigator class="my-item01" url='../upload_success/upload_success'>
+  
+  <form name='pushMsgFm' report-submit='true' bind:bindsubmit='form'>
+<button form-type="submit" class='button1' loading='{{loading}}' disabled='{{disabled}}'>上传</button>
+</form>
+  </navigator>
+</view>
+

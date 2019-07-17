@@ -1,0 +1,31 @@
+<view class='root'>
+  <!--总的大框-->
+
+  <view class="my-list">
+
+    <navigator class="my-item01" url='../change_password/change_password'>
+      <image class='list-image' src='/images/password.png'></image>
+      <text class='list-text' decode='true'>更改密码</text>
+      <text class='text01'>></text>
+    </navigator>
+
+    <navigator class='my-item02' url='../change_question/change_question'>
+      <image class='list-image' src='/images/mibao.png'></image>
+      <text class='list-text'>更改密保问题</text>
+      <text class='text02'>></text>
+    </navigator>
+
+    <navigator class="my-item03" url="../change_answer/change_answer">
+      <image class='list-image' src='/images/answer.png'></image>
+      <text class='list-text'>更改密保答案</text>
+      <text class='text03'>></text>
+    </navigator>
+  </view>
+
+  <view>
+    <!--退出登录的框-->
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button1' bindtap='button'> 退出登录 </button>
+  </view>
+
+</view>
+<!--总框结束-->

@@ -1,0 +1,20 @@
+<view class='root'>
+  <!--总的大框-->
+
+  <view class="my-list">
+
+    <navigator class="my-item01" url='../school_certificate_wait_for_audit/school_certificate_wait_for_audit'>
+      <image class='list-image' src='/images/wait1.png'></image>
+      <text class='list-text' >待审核在学证明</text>
+      <text class='text01'>></text>
+    </navigator>
+
+    <navigator class='my-item02' url='../school_certificate_wait_for_uploading/school_certificate_wait_for_uploading'>
+      <image class='list-image' src='/images/wait2.png'></image>
+      <text class='list-text'>待上传在学证明</text>
+      <text class='text02'>></text>
+    </navigator>
+
+  </view>
+</view>
+<!--总框结束-->

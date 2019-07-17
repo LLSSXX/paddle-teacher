@@ -1,0 +1,58 @@
+<view class='root'>
+  <!--整体框架-->
+
+  <view class='top'>
+    <view class='top-middle'></view>
+  </view>
+  <view class='container1' animation="{{slide_up2}}">
+
+    <!--上边全部的框-->
+    <view class='on'></view>
+    <view class='top1'>请选择想要查询的时间段：</view>
+    <view class='name1'>
+      <!--时间框-->
+      <picker mode="date" value="{{date1}}" start="2015-03-12" end="2030-07-14" bindchange="bindDateChange1" class='date'>
+        <view class="picker">
+          {{date1}}
+        </view>
+      </picker>
+      <picker mode="time" value="{{time1}}" start="00:00" end="24:59" bindchange="bindTimeChange1" class='time'>
+        <view class="picker">
+          {{time1}}
+        </view>
+      </picker>
+    </view>
+    <view class='line'></view>
+    <!--时间框结束-->
+
+    <view class='name2'>
+      <!--时间框-->
+      <picker mode="date" value="{{date2}}" start="{{date1}}" end="2030-07-14" bindchange="bindDateChange2" class='date'>
+        <view class="picker">
+          {{date2}}
+        </view>
+      </picker>
+      <picker mode="time" value="{{time2}}" start="00:00" end="24:59" bindchange="bindTimeChange2" class='time'>
+        <view class="picker">
+          {{time2}}
+        </view>
+      </picker>
+    </view>
+    <view class='line'></view>
+    <!--时间框结束-->
+    <view>
+    <button class='search' bindtap='search'>查询</button>
+    </view>
+    <!--上边的框结束-->
+  </view>
+  <!--整体框架结束-->
+</view>
+
+
+<view class='view'>
+  <button wx:for="{{information}}" bindtap='button' data-sequence_number='{{item.sequence_number}}' class='button'>
+    <view>{{item.application_reason}}</view>
+    <view>{{item.submit_time}}</view>
+  </button>
+   <view class='view1'></view>
+</view>

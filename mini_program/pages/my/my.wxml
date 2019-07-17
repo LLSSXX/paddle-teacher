@@ -1,0 +1,55 @@
+<view class='root'>
+
+  <view class='container1'>
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 
+      <view class='word'>点击进行微信授权</view>
+      </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      </block>
+    </view>
+
+    <view>
+      <view class='text1'>
+        <text>{{name}}</text>
+      </view>
+      <view class='text2'>
+        <text>{{username}}</text>
+      </view>
+    </view>
+
+  </view>
+
+
+
+  <view class="my-list">
+
+    <view class='list-view'>
+      <navigator class="my-item01" url='../application_record/application_record'>
+        <image class='list-image' src='/images/school_certificate.png'></image>
+        <text class='list-text'>申请记录</text>
+        <text class='text3'>></text>
+      </navigator>
+    </view>
+
+    <navigator class='my-item02' url='../account_manage/account_manage'>
+      <image class='list-image' src='/images/account_manage.png'></image>
+      <text class='list-text'>账号管理</text>
+      <text class='text3'>></text>
+    </navigator>
+
+    <navigator class="my-item03" url="../suggestion_feedback/suggestion_feedback">
+      <image class='list-image' src='/images/apply.png'></image>
+      <text class='list-text'>意见反馈</text>
+      <text class='text3'>></text>
+    </navigator>
+
+    <navigator class="my-item04" url="../about_us/about_us">
+      <image class='list-image' src='/images/about_us.png'></image>
+      <text class='list-text'>关于我们</text>
+      <text class='text3'>></text>
+    </navigator>
+
+  </view>
+</view>

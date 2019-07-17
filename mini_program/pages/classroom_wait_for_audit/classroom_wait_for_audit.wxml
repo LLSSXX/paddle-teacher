@@ -1,0 +1,8 @@
+<view>
+  <button wx:for="{{information}}" bindtap='button' data-sequence_number='{{item.sequence_number}}' class='button'>
+    <view>{{item.purpose}}</view>
+    <view>{{item.use_date}}  {{item.begin_time}}至{{item.end_time}}</view>
+  </button>
+   <view class='view'></view>
+</view>
+

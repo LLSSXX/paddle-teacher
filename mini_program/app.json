@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/forget_password_number/forget_password_number",
+    "pages/forget_password_answer/forget_password_answer",
+    "pages/forget_password_new_password/forget_password_new_password",
+    "pages/set_question/set_question",
+
+    "pages/index/index",
+    "pages/apply_school_certificate/apply_school_certificate",
+    "pages/preview/preview",
+    "pages/automatic_pass/automatic_pass",
+    "pages/need_teacher_check/need_teacher_check",
+    "pages/submit_application_fail/submit_application_fail",
+    "pages/apply_classroom/apply_classroom",
+    "pages/apply_activity/apply_activity",
+    "pages/my/my",
+    "pages/application_record/application_record",
+    "pages/school_certificate_application_record/school_certificate_application_record",
+    "pages/school_certificate_application_record_detail/school_certificate_application_record_detail",
+    "pages/classroom_application_record/classroom_application_record",
+    "pages/classroom_application_record_detail/classroom_application_record_detail",
+    "pages/activity_application_record/activity_application_record",
+    "pages/activity_application_record_detail/activity_application_record_detail",
+    "pages/account_manage/account_manage",
+    "pages/change_password/change_password",
+    "pages/change_password_success/change_password_success",
+    "pages/change_question/change_question",
+    "pages/change_question_new_question/change_question_new_question",
+    "pages/change_question_success/change_question_success",
+    "pages/change_answer/change_answer",
+    "pages/change_answer_success/change_answer_success",
+    "pages/suggestion_feedback/suggestion_feedback",
+    "pages/suggestion_feedback_sunbmit_success/suggestion_feedback_sunbmit_success",
+    "pages/about_us/about_us",
+    
+    "pages/teacher_index/teacher_index",
+    "pages/check_school_certificate/check_school_certificate",
+    "pages/school_certificate_wait_for_audit/school_certificate_wait_for_audit",
+    "pages/school_certificate_wait_for_audit_detail/school_certificate_wait_for_audit_detail",
+    "pages/school_certificate_wait_for_uploading/school_certificate_wait_for_uploading",
+    "pages/school_certificate_wait_for_uploading_detail/school_certificate_wait_for_uploading_detail",
+    "pages/upload_success/upload_success",
+    "pages/check_classroom/check_classroom",
+    "pages/classroom_wait_for_audit/classroom_wait_for_audit",
+    "pages/classroom_wait_for_audit_detail/classroom_wait_for_audit_detail",
+    "pages/classroom_wait_for_uploading/classroom_wait_for_uploading",
+    "pages/classroom_wait_for_uploading_detail/classroom_wait_for_uploading_detail",
+    "pages/check_action/check_action",
+    "pages/activity_wait_for_audit/activity_wait_for_audit",
+    "pages/activity_wait_for_audit_detail/activity_wait_for_audit_detail",
+    "pages/activity_wait_for_uploading/activity_wait_for_uploading",
+    "pages/activity_wait_for_uploading_detail/activity_wait_for_uploading_detail",
+    "pages/teacher_my/teacher_my",
+    "pages/check_record/check_record",
+    "pages/school_certificate_check_record/school_certificate_check_record",
+    "pages/school_certificate_check_record_detail/school_certificate_check_record_detail",
+    "pages/classroom_check_record/classroom_check_record",
+    "pages/classroom_check_record_detail/classroom_check_record_detail",
+    "pages/activity_check_record/activity_check_record",
+    "pages/activity_check_record_detail/activity_check_record_detail",
+
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#F8931D",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/teacher_index/teacher_index",
+        "iconPath": "images/home-off.png",
+        "selectedIconPath": "images/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/teacher_my/teacher_my",
+        "iconPath": "images/my-off.png",
+        "selectedIconPath": "images/my-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<view class='title'>在学证明</view>
+<view class='text'><text space='ensp'>    兹证明我校{{college}}{{profession}}专业{{grade}}级学生{{name}}同学,学号：{{school_number}},因学生需{{application_reason}}，特此证明。</text></view>
+<view class='end'>天津师范大学学生处</view>
+<view class='date'>{{date}}</view>
+
+<view>
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button' bindtap='ensure'>确定</button>
+</view>

@@ -1,0 +1,23 @@
+.button{
+  color: black;
+  background-color: white;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  height: 200rpx;
+  width: 700rpx;
+  font-size: 35rpx;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button::after{
+  border:none;
+}
+
+.view{
+  height: 20rpx;
+  margin-bottom: 30rpx;
+}

@@ -1,0 +1,18 @@
+<!--输入区的框-->
+<view class='con'>
+<textarea class='textarea1' placeholder="请输入您对小程序的意见或建议" bindinput='suggestionInput'>
+</textarea>
+</view>
+<!--输入区的框结束-->
+
+
+<view class='con2'>
+  <input class='input1' placeholder=" 联系电话" bindinput='phone_numberInput'>
+  </input>
+</view>
+
+<view class='con3'>
+  <!--按钮的框-->
+  <button loading='{{loading}}' disabled='{{disabled}}' class='button1' bindtap="submit">提交</button>
+</view>
+<view class="text2">{{infoMess}}</view>

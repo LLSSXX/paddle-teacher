@@ -1,0 +1,26 @@
+<view class='top-image'>
+  <image src='/images/login.png'></image>
+</view>
+
+<view class='con1'>
+  <view class='text1'>用户名：</view>
+  <input class='input1' placeholder="学号/工号" bindinput="usernameInput"> </input>
+</view>
+
+<view class='con1'>
+  <text class='text2' decode="true">密 &nbsp;&nbsp;&nbsp; 码：</text>
+  <input class='input1' password="true" placeholder="初始密码同用户名" bindinput="passwordInput"> </input>
+</view>
+
+<!--按钮-->
+<view>
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button' bindtap='login'>登录</button>
+</view>
+<view>
+  <button class="forgetPassword" bindtap="forget_password">忘记密码</button>
+</view>
+
+<view class="info">{{infoMess}}</view>
+<view class='word'>
+  欢迎使用爬豆老师
+</view>

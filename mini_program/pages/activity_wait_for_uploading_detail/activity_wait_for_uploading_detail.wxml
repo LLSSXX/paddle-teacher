@@ -1,0 +1,82 @@
+<view>
+  <view class='container1'>
+    <!--上边全部的框-->
+
+    <view class='name'>
+      <!--姓名的框子-->
+      <text decode="{{true}}" space="ensp">姓    名 ：</text>
+      <view class='text'>{{name}}</view>
+    </view>
+    <!--姓名的框子结束-->
+
+    <view class='number'>
+      <!--学号的框子-->
+      <text decode="{{true}}" space="ensp">学    号 ：</text>
+      <view class='text'>{{school_number}}</view>
+    </view>
+    <!--学号的框子结束-->
+
+    <view class='number'>
+      <!--学院的框子-->
+      <text decode="{{true}}" space="ensp">学    院 ：</text>
+      <view class='text'>{{college}}</view>
+    </view>
+    <!--学院的框子结束-->
+
+    <view class='number'>
+      <!--专业的框子-->
+      <text decode="{{true}}" space="ensp">专    业 ：</text>
+      <view class='text'>{{profession}}</view>
+    </view>
+    <!--专业的框子结束-->
+
+    <view class='number'>
+      <!--申请理由的框子-->
+      <text decode="{{true}}" space="ensp">用    途 ：</text>
+      <view class='text'>{{purpose}}</view>
+    </view>
+    <!--理由的框子结束-->
+
+    <view class='number'>
+      <!--教室-->
+      <text decode='{{true}}' space='ensp'>使用场地 : </text>
+      <view class='text'>{{area}}</view>
+    </view>
+    <!--教室结束-->
+
+    <view class='number'>
+      <!--使用时间-->
+      <text decode='{{true}}' space='ensp'>使用日期 ：</text>
+      <view class='text'>{{use_date}}</view>
+    </view>
+
+    <view class='number'>
+      <!--提交申请时间的框子-->
+      <text decode="{{true}}" space="ensp">使用时间 ：</text>
+      <view class='text'>{{begin_time}}至{{end_time}}</view>
+    </view>
+    <!--提交申请时间的框子结束-->
+
+  </view>
+</view>
+<!--上边的框结束-->
+
+
+  <view class='con-top'>
+    <!--上边两个按钮-->
+    <view>
+      <button class='buttonTwo-1' bindtap='choose_pass' disabled='{{disabled}}'>通 过</button>
+    </view>
+    <view>
+      <button class='buttonTwo-2' bindtap='choose_dispass' disabled='{{disabled}}'>不通过</button>
+    </view>
+
+    <view>
+      <!--底下的按钮狂-->
+      <button class='button-fianl'>下一条</button>
+    </view>
+  </view>
+  <!--上边的两个按钮结束-->
+
+
+<!--整体框架结束-->

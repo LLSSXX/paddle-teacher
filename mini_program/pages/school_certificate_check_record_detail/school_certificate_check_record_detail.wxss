@@ -1,0 +1,57 @@
+.con{
+  color: black;
+  background-color: white;
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  height: 660rpx;
+  font-size: 35rpx;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  display: flex;
+  flex-direction: column;
+}
+
+.con::after{
+  border: none;
+}
+
+
+.name{
+  margin-left: 75rpx;
+  margin-top: 65rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.number{
+  margin-left: 75rpx;
+  margin-top: 27rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text{
+  color: #9ea2a8;
+  margin-left: 10rpx;
+}
+
+.button{
+  color: white;
+  background-color: #FF8C00;
+  border-radius: 50rpx;
+  margin-top: 110rpx;
+  height: 100rpx;
+  width: 600rpx;
+  font-size: 45rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button::after{
+  border: none;
+}

@@ -1,0 +1,15 @@
+<view>
+  <view class='img'>
+    <image class='image' src='/images/wait.png'></image>
+  </view>
+  <view class='text1'>
+    <text>需要人工审核</text>
+  </view>
+  <view class='text2'>
+    <text>请找学院学工办相关老师进行审批</text>
+  </view>
+  <view>
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button' bindtap='ensure'>确定</button>
+  </view>
+
+</view>

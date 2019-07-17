@@ -1,0 +1,14 @@
+<view>
+  <view class='img'>
+    <image class='image' src='/images/right.png'></image>
+  </view>
+
+  <view class='text2'>
+    <text>意见反馈提交成功</text>
+  </view>
+  <view>
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button' bindtap='ensure'>确定</button>
+  </view>
+
+</view>
+

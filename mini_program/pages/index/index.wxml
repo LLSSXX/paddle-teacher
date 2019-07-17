@@ -1,0 +1,35 @@
+<view class='root'>
+  <!--整体-->
+
+  <view class='con-top'>
+    <!--上边的字，图片还有申请教室-->
+
+    <view class='welcom'>欢迎使用爬豆老师</view>
+    <view class='top-image'>
+      <image src='/images/index.png'></image>
+    </view>
+    <button class='school' bindtap='school' form-type='submit'>
+      <image src='/images/school_certificate.png' class='icon1'></image>
+      <view>申请在学证明</view>
+    </button>
+
+  </view>
+  <!--上边的框结束-->
+
+  <view class='con-bottom'>
+    <!--下边的框-->
+
+    <button class='classroom' bindtap='classroom' form-type='submit'>
+      <image src='/images/classroom.png' class='icon2'></image>
+      <view>申请教室</view>
+    </button>
+
+    <button class='action' bindtap='activity' form-type='submit'>
+      <image src='/images/activity.png' class='icon2'></image>
+      <view>申请活动</view>
+    </button>
+
+  </view>
+  <!--下边的框结束-->
+
+</view>

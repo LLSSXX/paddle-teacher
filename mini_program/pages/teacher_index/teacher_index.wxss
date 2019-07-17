@@ -1,0 +1,112 @@
+page{
+  height:100%
+} 
+ 
+.root{ 
+   height: 100%; 
+   display: flex; 
+   flex-direction: column; 
+   padding: 0; 
+   box-sizing: border-box; 
+} 
+
+.con-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.welcom{
+  text-align: center;
+  margin-top: 35rpx;
+  font-size:35rpx;
+  color:#FF8C00;
+}
+
+.top-image{
+  display: flex;
+  justify-content: center;
+}
+
+.top-image image{
+  margin-top: 28rpx;
+  width: 650rpx;
+  height: 350rpx;
+  border-radius: 8rpx;
+}
+
+.icon1{
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.school{
+  background-color:white;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  margin-top: 80rpx;
+  width: 650rpx;
+  height: 170rpx;
+  border-radius: 8rpx;
+  color: #4b372c;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.school::after{
+  border: none;
+}
+
+.con-bottom{
+  margin-top: 50rpx;
+  display: flex;  
+  flex-direction: row; 
+}
+
+.icon2{
+  margin-bottom: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.classroom{
+  background-color:white;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  margin-top: 5rpx;
+  margin-left: 50rpx;
+  width: 300rpx;
+  height: 250rpx;
+  border-radius: 8rpx;
+  color: #4b372c;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.classroom::after{
+  border: none;
+}
+
+.action{
+  background-color:white;
+  box-shadow:0rpx 0rpx 30rpx 0rpx rgba(248, 146, 29, 0.205);
+  margin-top: 5rpx;
+  margin-right: 50rpx;
+  width: 300rpx;
+  height: 250rpx;
+  border-radius: 8rpx;
+  color: #4b372c;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action::after{
+  border: none;
+}

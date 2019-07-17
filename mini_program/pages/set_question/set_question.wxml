@@ -1,0 +1,26 @@
+<view class="con">
+  <!--总的大框-->
+  <view class='con1'>
+    <!--密保问题框-->
+    <view>密保问题：</view>
+    <picker bindchange="question" value="{{choose_question}}" range="{{array}}">
+      <view class="picker">
+        {{array[choose_question]}}
+      </view>
+    </picker>
+  </view>
+  <!--密保问题框结束-->
+
+  <view class='con1'>
+    <!--获取答案的框-->
+    <view class="text1">答案：</view>
+    <input class='input1' bindinput='answer'></input>
+  </view>
+  <view>
+    <!--确定按钮的组件-->
+    <button loading='{{loading}}' disabled='{{disabled}}' class='butt2' bindtap='ensure'>确定</button>
+  </view>
+
+  <view class="text2">{{infoMess}}</view>
+</view>
+<!--最大的框结束-->

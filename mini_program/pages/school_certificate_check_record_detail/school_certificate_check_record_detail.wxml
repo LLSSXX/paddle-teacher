@@ -1,0 +1,50 @@
+<view class='con'>
+  <!--总的大框子 好像也就这么一个-->
+
+  <view class='name'>
+    <!--姓名的框子-->
+    <text decode="{{true}}" space="ensp">姓    名 ：</text><view class='text'>{{name}}</view>
+  </view>
+  <!--姓名的框子结束-->
+
+  <view class='number'>
+    <!--学号的框子-->
+    <text decode="{{true}}" space="ensp">学    号 ：</text><view class='text'>{{school_number}}</view>
+  </view>
+  <!--学号的框子结束-->
+
+  <view class='number'>
+    <!--学院的框子-->
+    <text decode="{{true}}" space="ensp">学    院 ：</text><view class='text'>{{choose_college}}</view>
+  </view>
+  <!--学院的框子结束-->
+
+  <view class='number'>
+    <!--专业的框子-->
+    <text decode="{{true}}" space="ensp">专    业 ：</text><view class='text'>{{profession}}</view>
+  </view>
+  <!--专业的框子结束-->
+
+  <view class='number'>
+    <!--申请理由的框子-->
+    <text decode="{{true}}" space="ensp">用    途 ：</text><view class='text'>{{application_reason}}</view>
+  </view>
+  <!--理由的框子结束-->
+
+  <view class='number'>
+    <!--提交申请时间的框子-->
+    <text decode="{{true}}" space="ensp">提交时间 ：</text><view class='text'>{{submit_time}}</view>
+  </view>
+  <!--提交申请时间的框子结束-->
+
+  <view class='number'>
+    <!--审核结果的框子-->
+    <text decode="{{true}}" space="ensp">审核结果 ：</text><view class='text'>{{check_method}}{{result}}</view>
+  </view>
+  <!--审核结果的框子结束-->
+
+</view>
+
+<view>
+    <button loading='{{loading}}' disabled='{{disabled}}' class='button' bindtap='ensure'>确定</button>
+</view>
